@@ -1,0 +1,65 @@
+.skills {
+  font-family: "VT323", monospace;
+  font-size: 24px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill-title {
+  font-family: "VT323", monospace;
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+}
+
+.skill-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 2rem 0;
+  padding: 0;
+  align-items: start;
+  align-content: space-evenly;
+  width: 80%;
+}
+
+.skill-list li {
+  padding: 3px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.skill-list li:hover {
+  background-color: black;
+  color: #a5ff03;
+}
+
+.skill-latop {
+  margin-top: 3rem;
+  background-image: url("../../images/laptop.png");
+  width: 200px;
+  height: 130px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.skill-latop i {
+  font-size: 60px;
+  position: relative;
+  right: -70px;
+  top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .skill-list {
+    flex-direction: column;
+  }
+
+  .skill-latop {
+    display: none;
+  }
+}

@@ -1,0 +1,64 @@
+.contact {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-form {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: "Inconsolata", monospace;
+}
+
+.send-email {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  height: 50%;
+  z-index: 5;
+  margin-top: 2rem;
+  background-color: black;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: inset -4px -4px 0px 0px #a5ff03;
+}
+
+.send-email label {
+  color: white;
+}
+
+.input {
+  margin: 1em 0;
+  border-radius: 0px;
+  border: 1px solid black;
+  height: 1.5em;
+}
+
+.message {
+  height: 40%;
+  resize: none;
+  border: 1px solid black;
+}
+
+@media (max-width: 750px) {
+  .send-email {
+    width: 70%;
+    justify-content: center;
+    margin: 0.5em;
+  }
+  .input {
+    margin: 0.2em;
+  }
+  .container_form h1 {
+    font-size: 18px;
+  }
+  .message {
+    height: 35%;
+  }
+}
