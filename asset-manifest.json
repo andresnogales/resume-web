@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.f3a3da3a.css",
-    "main.js": "/static/js/main.1395b405.js",
-    "static/js/787.cb6ace35.chunk.js": "/static/js/787.cb6ace35.chunk.js",
-    "static/media/bookshop.png": "/static/media/bookshop.c2a3157d906daa19e451.png",
-    "static/media/turismojujuy.png": "/static/media/turismojujuy.b72133b87111b26cc3cf.png",
-    "static/media/plantswebsiteFullSize.jpg": "/static/media/plantswebsiteFullSize.39ac7a055618ab90c51f.jpg",
-    "static/media/link-hold.gif": "/static/media/link-hold.e71a35b39bc86d95124f.gif",
-    "static/media/restobar.png": "/static/media/restobar.3f4e90442dc6d9132e53.png",
-    "static/media/andres.png": "/static/media/andres.7d878257139a6e3757cd.png",
-    "index.html": "/index.html",
-    "main.f3a3da3a.css.map": "/static/css/main.f3a3da3a.css.map",
-    "main.1395b405.js.map": "/static/js/main.1395b405.js.map",
-    "787.cb6ace35.chunk.js.map": "/static/js/787.cb6ace35.chunk.js.map"
+    "main.css": "/resume-web/static/css/main.832d38fa.css",
+    "main.js": "/resume-web/static/js/main.fe5ce7f8.js",
+    "static/js/787.cb6ace35.chunk.js": "/resume-web/static/js/787.cb6ace35.chunk.js",
+    "static/media/bookshop.png": "/resume-web/static/media/bookshop.c2a3157d906daa19e451.png",
+    "static/media/turismojujuy.png": "/resume-web/static/media/turismojujuy.b72133b87111b26cc3cf.png",
+    "static/media/plantswebsiteFullSize.jpg": "/resume-web/static/media/plantswebsiteFullSize.39ac7a055618ab90c51f.jpg",
+    "static/media/link-hold.gif": "/resume-web/static/media/link-hold.e71a35b39bc86d95124f.gif",
+    "static/media/restobar.png": "/resume-web/static/media/restobar.3f4e90442dc6d9132e53.png",
+    "static/media/andres.png": "/resume-web/static/media/andres.7d878257139a6e3757cd.png",
+    "index.html": "/resume-web/index.html",
+    "main.832d38fa.css.map": "/resume-web/static/css/main.832d38fa.css.map",
+    "main.fe5ce7f8.js.map": "/resume-web/static/js/main.fe5ce7f8.js.map",
+    "787.cb6ace35.chunk.js.map": "/resume-web/static/js/787.cb6ace35.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3a3da3a.css",
-    "static/js/main.1395b405.js"
+    "static/css/main.832d38fa.css",
+    "static/js/main.fe5ce7f8.js"
   ]
 }
