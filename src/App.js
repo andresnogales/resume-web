@@ -21,11 +21,11 @@ function App() {
       <Sidebar isopen={isopen} toggle={toggle} />
       <div className="wrapper">
         <Routes>
-          <Route path="/" element={<Home />}></Route>
-          <Route path="/about" element={<About />}></Route>
-          <Route path="/skills" element={<Skills />}></Route>
-          <Route path="/projects" element={<Projects />}></Route>
-          <Route path="/contact" element={<Contact />}></Route>
+          <Route path="/resume-web" element={<Home />}></Route>
+          <Route path="/resume-web/about" element={<About />}></Route>
+          <Route path="/resume-web/skills" element={<Skills />}></Route>
+          <Route path="/resume-web/projects" element={<Projects />}></Route>
+          <Route path="/resume-web/contact" element={<Contact />}></Route>
         </Routes>
       </div>
     </main>

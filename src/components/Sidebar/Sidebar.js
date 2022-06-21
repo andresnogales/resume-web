@@ -24,27 +24,27 @@ const Sidebar = ({ isopen, toggle }) => {
         <div className="sidebar-menu">
           <ul>
             <li>
-              <Link className="nav-link" to="/">
+              <Link className="nav-link" to="/resume-web/">
                 Home
               </Link>
             </li>
             <li>
-              <Link className="nav-link" to="/about">
+              <Link className="nav-link" to="/resume-web/about">
                 About me
               </Link>
             </li>
             <li>
-              <Link className="nav-link" to="/skills">
+              <Link className="nav-link" to="/resume-web/skills">
                 Skills
               </Link>
             </li>
             <li>
-              <Link className="nav-link" to="/projects">
+              <Link className="nav-link" to="/resume-web/projects">
                 Projects
               </Link>
             </li>
             <li>
-              <Link className="nav-link" to="/contact">
+              <Link className="nav-link" to="/resume-web/contact">
                 Contact Me
               </Link>
             </li>
