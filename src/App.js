@@ -21,7 +21,7 @@ function App() {
       <Sidebar isopen={isopen} toggle={toggle} />
       <div className="wrapper">
         <Routes>
-          <Route path="/resume-web" element={<Home />}></Route>
+          <Route path="/resume-web/" element={<Home />}></Route>
           <Route path="/resume-web/about" element={<About />}></Route>
           <Route path="/resume-web/skills" element={<Skills />}></Route>
           <Route path="/resume-web/projects" element={<Projects />}></Route>

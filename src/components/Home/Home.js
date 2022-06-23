@@ -49,7 +49,7 @@ export default function Home({ setPos }) {
           <p className="text-top">{text[1]}</p>
         </div>
         <div className="container-button" onClick="">
-          <Link to="/about">
+          <Link to="/resume-web/about">
             <Button label={"Continue"}></Button>
           </Link>
         </div>
